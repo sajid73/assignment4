@@ -130,14 +130,19 @@ p .btn-style{
 #confirm-box, #noticket-box{
     padding: 1rem;
     display: none;
-    margin: 30vh auto;
+    padding-top: 4%;
+    width: 40%;
+    height: 50vh;
     text-align: center;
-    border-radius: 2rem;
-    width: 400px;
-    height: 200px;
-    color: rgb(146, 59, 146);
-    background-color: rgba(255, 255, 255, 0.7);
-
+    margin: 15vh auto;
+    justify-items: center;
+    align-content: center;
+    border-radius: 1rem;
+    color: rgb(90, 17, 90);
+    background-color: rgba(255, 255, 255, 0.85);
+}
+#confirm-box h1{
+    color: rgb(25, 0, 255);
 }
 #confirm-messege{
     color: chocolate;

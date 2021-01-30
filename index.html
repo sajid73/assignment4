@@ -32,7 +32,9 @@
 
         <div class="booking-content">
             <h1>Mega City Bus</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.</p>
         </div>
 
 
@@ -42,18 +44,18 @@
             <div class="inputs">
                 <div class="input-group">
                     <label" for="">From</label>
-                    <input class="inp-style" type="text" name="" placeholder="Dhaka">
+                        <input class="inp-style" type="text" name="" placeholder="Dhaka">
                 </div>
                 <div class="input-group">
                     <label" for="">From</label>
-                    <input class="inp-style" type="text" name="" placeholder="Chittagone">
+                        <input class="inp-style" type="text" name="" placeholder="Chittagone">
                 </div>
             </div>
 
             <div class="inputs">
                 <div class="input-group">
                     <label" for="">Departure</label>
-                    <input class="inp-style" type="date" name="">
+                        <input class="inp-style" type="date" name="">
                 </div>
                 <div class="input-group">
                     <label for="">Return</label>
@@ -62,18 +64,20 @@
             </div>
             <div class="inputs">
                 <div class="input-group f-class">
-                <div>
-                    <!-- first class input area -->
-                    <label for="">First Class ($<span id="firstclass">150</span>)</label>
-                    <input id="firstclass-quantity" class="inp-style inp-width" type="number" name="" value="0">
+                    <div>
+                        <!-- first class input area -->
+                        <label for="">First Class ($<span id="firstclass">150</span>)</label>
+                        <input id="firstclass-quantity" class="inp-style inp-width" type="number" name="" value="0">
 
+                    </div>
+                    <div class="plus-minus-btn">
+                        <p> <button class="btn-style" onclick="quantityChanger('firstclass-quantity',true)"><i
+                                    class="fas fa-plus"></i></button>
+                            <button class="btn-style" onclick="quantityChanger('firstclass-quantity',false)"><i
+                                    class="fas fa-minus"></i></button>
+                        </p>
+                    </div>
                 </div>
-                <div class="plus-minus-btn">
-                    <p> <button class="btn-style" onclick="quantityChanger('firstclass-quantity',true)"><i class="fas fa-plus"></i></button>
-                        <button class="btn-style" onclick="quantityChanger('firstclass-quantity',false)"><i class="fas fa-minus"></i></button>
-                    </p>
-                </div>
-            </div>
                 <div class="input-group f-class">
                     <div>
                         <!-- economy class input area  -->
@@ -82,8 +86,10 @@
 
                     </div>
                     <div class="plus-minus-btn">
-                        <p> <button class="btn-style" onclick="quantityChanger('economyclass-quantity',true)"><i class="fas fa-plus"></i></button>
-                            <button class="btn-style"  onclick="quantityChanger('economyclass-quantity',false)"><i class="fas fa-minus"></i></button>
+                        <p> <button class="btn-style" onclick="quantityChanger('economyclass-quantity',true)"><i
+                                    class="fas fa-plus"></i></button>
+                            <button class="btn-style" onclick="quantityChanger('economyclass-quantity',false)"><i
+                                    class="fas fa-minus"></i></button>
                         </p>
                     </div>
                 </div>
@@ -122,14 +128,16 @@
 
     <section class="confirmation-area">
         <div id="confirm-box">
+            <h1>Ticket Information</h1><br>
+            <hr><br>
             <h2>Your booking confirmed </h2>
-            <h5>You have booked : <i><span id="confrim-messege">0</span></i></h5>
+            <h5>You have booked : <i><span id="confrim-messege">0</span></i></h5><br>
             <h4>Thanks for choosing <i>Mega City Bus</i></h4>
             <a href="index.html"><button class="btn-style">Go to home page</button></a>
         </div>
         <div id="noticket-box">
-            <h1 style="color: red;">OOPS!</h1>
-            <h4>Seems like, you didn't select any ticket</h4>
+            <h1 style="color: red;">OOPS!</h1><br>
+            <h4>Seems like, you didn't select any ticket</h4><br>
             <a href="index.html"><button class="btn-style">Book again</button></a>
         </div>
     </section>
