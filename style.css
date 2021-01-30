@@ -119,6 +119,10 @@ nav ul li a:hover, a.active{
     font-weight: 500;
     background-color:  #52AF3A;
 }
+p .btn-style{
+    margin-top: 3px;
+    background-color: brown;
+}
 .amount{
     display: flex;
     justify-content: space-between;

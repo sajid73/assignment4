@@ -69,8 +69,8 @@
 
                 </div>
                 <div class="plus-minus-btn">
-                    <p> <button onclick="quantityChanger('firstclass-quantity',true)"><i class="fas fa-plus"></i></button>
-                        <button  onclick="quantityChanger('firstclass-quantity',false)"><i class="fas fa-minus"></i></button>
+                    <p> <button class="btn-style" onclick="quantityChanger('firstclass-quantity',true)"><i class="fas fa-plus"></i></button>
+                        <button class="btn-style" onclick="quantityChanger('firstclass-quantity',false)"><i class="fas fa-minus"></i></button>
                     </p>
                 </div>
             </div>
@@ -82,12 +82,11 @@
 
                     </div>
                     <div class="plus-minus-btn">
-                        <p> <button onclick="quantityChanger('economyclass-quantity',true)"><i class="fas fa-plus"></i></button>
-                            <button  onclick="quantityChanger('economyclass-quantity',false)"><i class="fas fa-minus"></i></button>
+                        <p> <button class="btn-style" onclick="quantityChanger('economyclass-quantity',true)"><i class="fas fa-plus"></i></button>
+                            <button class="btn-style"  onclick="quantityChanger('economyclass-quantity',false)"><i class="fas fa-minus"></i></button>
                         </p>
                     </div>
                 </div>
-
             </div>
             <div class="calculations">
                 <div class="amount">
@@ -125,11 +124,12 @@
         <div id="confirm-box">
             <h2>Your booking confirmed </h2>
             <h4>Thanks for choosing <i>Mega City Bus</i></h4>
+            <a href="index.html"><button class="btn-style">Go to home page</button></a>
         </div>
         <div id="noticket-box">
-            <h1>OOPS!</h1>
+            <h1 style="color: red;">OOPS!</h1>
             <h4>Seems like, you didn't select any ticket</h4>
-            <button><a href="index.html">Book again</a></button>
+            <a href="index.html"><button class="btn-style">Book again</button></a>
         </div>
     </section>
 
